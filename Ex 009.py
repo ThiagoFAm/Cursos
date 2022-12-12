@@ -8,7 +8,7 @@ def tabuada(n):
         #Conta do produto.
         product = int(n * i)
         #Equação da tab
-        tab = (f'{n} x {i} = {product}')
+        tab = (f'{i} x {n} = {product}')
         #método 'append' para adicionar o resultado de 'tab' na lista criada.
         lista.append(tab)
         
