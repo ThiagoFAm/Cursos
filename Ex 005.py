@@ -6,7 +6,7 @@ def num(meio):
 
     #print(f'{antecessor} -- {meio} -- {sucessor}')
 
-    #Retornando as variáveis
+    #Retornando as variáveis.
     return antecessor, meio, sucessor
 
 #Definindo o número a ser usado no código.
@@ -15,7 +15,7 @@ n = int(input('Digite o número desejado: '))
 
 num(n)
 
-#Definindo variáveis para os valores retornados
+#Definindo variáveis para os valores retornados.
 
 #1˚ método:
 
@@ -25,6 +25,6 @@ num(n)
 
 #2˚ método:
 
-ant, meio, suc = num(n) #Dessa forma não agrupamos em uma só variável, mas definimos uma variável para cada
+ant, meio, suc = num(n) #Dessa forma não agrupamos em uma só variável, mas definimos uma variável para cada.
 
 print(f'Antecessor = {ant}\nMédio      = {meio}\nSucessor   = {suc}')

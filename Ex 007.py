@@ -1,4 +1,4 @@
-#Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre a média.
+#Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre as média.
 
 def notas(nota_1, nota_2):
     
@@ -16,4 +16,4 @@ boletim = notas(n1, n2)
 
 #Resultados.
 
-print(f'1˚AV = {boletim[0]}\n2˚AV = {boletim[1]}\nMédia = {boletim[2]}')
+print(f'Média = {boletim[2]}')
