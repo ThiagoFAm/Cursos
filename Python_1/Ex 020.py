@@ -7,10 +7,10 @@ alunos = ['Carl','Jeff','Erich','Mason'] #Alunos.
 
 def sort_order(): #Função.
 
-    ord = random.sample(alunos, k=len(alunos)) #Método 'sample' da lib random é usado para embaralhar uma ordem.
+    ord = random.sample(alunos, k=len(alunos))
 
-    print(ord) #Imprimindo a ordem gerada.
+    print(ord) #Método 'sample' da lib random é usado para embaralhar uma ordem.
 
-    return ord #Retorno da variável ordem da apresentação.
+    return ord #Retorno da var.
 
-order_sort = sort_order() #Armazenando a ordem do sorteio em uma váriavel.
+order_sort = sort_order() #Armazenando o resultado em uma var.
