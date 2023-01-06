@@ -1,5 +1,7 @@
 #Faça um programa que leia um número inteiro e mostre na tela o seu antecessor e seu sucessor.
 
+n = int(input('Digite o número desejado: '))
+
 def num(meio):
     antecessor = int(meio - 1)
     sucessor   = int(meio + 1)
@@ -11,7 +13,7 @@ def num(meio):
 
 #Definindo o número a ser usado no código.
 
-n = int(input('Digite o número desejado: '))
+
 
 num(n)
 

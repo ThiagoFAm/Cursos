@@ -11,6 +11,9 @@ def sort_order(): #Função.
 
     print(ord) #Método 'sample' da lib random é usado para embaralhar uma ordem.
 
+    print(ord)
+
     return ord #Retorno da var.
 
 order_sort = sort_order() #Armazenando o resultado em uma var.
+

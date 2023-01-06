@@ -2,6 +2,9 @@
 #Calcule a sua área e a quantidade de tinta necessária para pintá-la.
 #Sabendo que cada litro de tinta pinta uma área de 2m2(dois metros quadrados).
 
+largura = float(input('Largura da parede: ')) #Entrada largura.
+altura  = float(input('Altura  da parede: ')) #Entrada Altura.
+
 def parede(largura, altura):
     tinta = float(2) #Cada 1L pinta 2m2.
     area_parede = float(largura * altura) #A parede é um quadrado, ou seja, usaremos a área do quadrado(lado * lado).

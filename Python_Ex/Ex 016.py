@@ -1,5 +1,7 @@
 #Crie um programa que leia um número qualquer pelo teclado e mostre sua porção inteira.
 
+num = float(input('Digite um número: ')) #Entrada do número a ser 'transformado'.
+
 import math #modulo matemático.
 
 def mat(num): #função

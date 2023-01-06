@@ -1,4 +1,10 @@
 #Crie um algoritmo que leia um número e mostre o seu dobro, triplo e raiz quadrada.
+
+
+#Definindo o número a ser usado no código.
+
+num = int(input('Digite um número de sua escolha:'))
+
 def op(n):
 
     dobro  = int(n * 2)

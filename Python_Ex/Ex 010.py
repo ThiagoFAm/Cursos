@@ -1,6 +1,9 @@
 #Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostra quantos dólares ela pode comprar.
 #Considere U$1.00 = R$3.27, Exiba os dólares convertidos. // OBS = Valores representativos, não são reais.
 
+#Entrada do valor do dólar.
+valor_dolar = float(input("Quantos Reais há em sua carteira? "))
+
 def carteira(valor_dolar):
     RS = float(3.27) #Valor obtido para o Real.
     US = float(1.00) #Valor obtido para o Dólar. Por ser == a 1.0, não usamos o essa variável.

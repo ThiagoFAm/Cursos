@@ -1,5 +1,6 @@
 import math
 
+a = int(input("Digite o ângulo: "))
 
 def trigonometria(a):
 
@@ -7,3 +8,5 @@ def trigonometria(a):
     cosseno = math.cos(math.radians(a))
     tangente = math.tan(math.radians(a))
     print("O seno do ângulo é",seno,"o cosseno é",cosseno,"e a tangente é",tangente)
+
+seno, cosseno, tangente = trigonometria(a)

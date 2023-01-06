@@ -1,5 +1,7 @@
 #Faça um algoritmo que leia o preço de um produto e mostre seu novo produto, com 5% de desconto.
 
+preco_produto = float(input('Valor do produto que irá receber desconto: ')) #Entrada.
+
 def desconto(preco_produto):
     d = float(0.05) #Desconto em porcentagem, deixei em decimal para facilitar o calculo.
     i = float(preco_produto * d) #Calculo para adquirir 5% do produto.

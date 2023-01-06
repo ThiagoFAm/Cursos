@@ -1,5 +1,7 @@
 #Faça um algoritmo que leia o salário de um funcionário e meostre seu novo salário, com 15% de aumento.
 
+salario = float(input('Digite o salário do funcionário: ')) #Entrada do salário.
+
 def promocao(salario):
     p = float(0.15) #porcentagem da promoção. Foi posta em decimal para facilitar o calculo.
 
