@@ -9,7 +9,6 @@ def carteira(valor_dolar):
 
     return valor_real #Retornando o valor do dolar convertido para real.
 
-valor_dolar = float(input("Quantos Reais há em sua carteira? ")) #Entrada do valor do dólar.
 var = carteira(valor_dolar) #Armazenando o valor retornado da função em 'var'.
 print(f'Em sua carteira há US ${round(var, 2)}')#'round()' é usado para limitar uma float,
                                                 #nesse caso determinamos que só irá mostrar 2 números depois do ponto.

@@ -8,6 +8,5 @@ def desconto(preco_produto):
     return preco_produto, novo_valor #Retornamos duas variáveis. Sendo a primeiro o preço que iremos inserir como entrada
                                      #E o novo preço com o desconto já aplicado.
 
-preco_produto = float(input('Valor do produto que irá receber desconto: ')) #Entrada.
 valor_antigo, valor_novo = desconto(preco_produto) #Armazenamento dos resultados retornados, respectivamente.
 print(f'Preço antigo = {valor_antigo}\nPreço novo com 5% de desconto = {valor_novo}') #Exibindo  o valor dos valores.

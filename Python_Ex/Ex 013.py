@@ -7,6 +7,5 @@ def promocao(salario):
 
     return promo #Retornando o valor do novo salário do funcionário.
 
-salario = float(input('Digite o salário do funcionário: ')) #Entrada do salário.
 novo_salario = promocao(salario) #Definindo o retorno como 'novo_salario'
 print(f'O funcionário recebeu uma promoção de 15%, resultante em R${novo_salario}') #Exibição.

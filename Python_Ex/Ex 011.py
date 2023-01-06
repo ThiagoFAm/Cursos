@@ -9,9 +9,6 @@ def parede(largura, altura):
 
     return area_parede, qtd_necessária #Retornando as váriaveis.
 
-largura = float(input('Largura da parede: ')) #Entrada largura.
-altura  = float(input('Altura  da parede: ')) #Entrada Altura.
-
 area_parede, litros_necessario = parede(largura, altura) #Armazenando os resultados retornados em area, litros. Respectivamente.
 
 print(litros_necessario, area_parede)

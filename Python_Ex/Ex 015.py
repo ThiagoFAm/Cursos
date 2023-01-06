@@ -7,10 +7,4 @@ def aluguel(km, dias): #Função
 
     return km_rodado, dias_usados #Retorno das variáveis.
 
-km = float(input('Quantos kilometros rodados: ')) #entrada km.
-dias = float(input('Dias que o carro ficou sobre posse do indivíduo: ')) #Entrada dias.
-
 km_rodado, dias_usados = aluguel(km, dias) #Armazenando os retornos em variáveis respectivas.
-
-print(f'O carro percorreu {km}Km durante {dias} dia(s)\nPortanto o valor a ser cobrado é de R${km_rodado + dias_usados}')
-#Imprimindo o resultado.

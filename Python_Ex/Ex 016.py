@@ -10,6 +10,4 @@ def mat(num): #função
 
     return num, num_trunc #retornando os valores.
 
-num = float(input('Digite um número: ')) #Entrada do número a ser 'transformado'.
-
 num_float, num_int = mat(num) #Armazenando os retornos em suas respectivas variáveis.

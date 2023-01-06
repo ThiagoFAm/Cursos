@@ -7,10 +7,6 @@ def op(n):
 
     return dobro, triplo, raiz
 
-#Definindo o número a ser usado no código.
-
-num = int(input('Digite um número de sua escolha:'))
-
 #Definindo uma variável para os valores retornados, os valores serão retornados como se fosse uma lista.
 
 count = op(num)

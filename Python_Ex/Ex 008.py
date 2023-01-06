@@ -6,10 +6,6 @@ def conversao(m):
 
     return m, cm, mili
 
-#Variável float, por que melhor se encaixa em um contexto prático onde irá se obter numéros quebrados.
-
-metros = float(input('Digite um valor em Metros: '))
-
 #Definindo uma variável para cada valor.
 #OBS: Quando for definir variaveis respectivamente, tem que ser na ordem.
 m, cm, mili = conversao(metros)

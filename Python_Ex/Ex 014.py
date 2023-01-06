@@ -5,7 +5,4 @@ def conversor_temp(C): #Função.
 
     return C, F #Retorno.
 
-C = float(input('Digite a tempratura em Celsius: ')) #Entrada com float.
 cel, far = conversor_temp(C) #Armazendo os retornos respectivamente.
-
-print(f'Celsius = {C}\nFareheint = {far}') #Imprimindo o Resultado.
